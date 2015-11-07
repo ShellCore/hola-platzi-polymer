@@ -1,0 +1,21 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<dom-module id="hola-platzi-polymer">
+    <template>
+        <p>
+            Hola, <strong>{{who}}</strong>
+        </p>
+    </template>
+</dom-module>
+
+<script charset="utf-8">
+    Polymer({
+        is: 'hola-platzi-polymer',
+        properties: {
+            who: {
+                type: String,
+                value: 'Platzi'
+            }
+        }
+    });
+</script>
